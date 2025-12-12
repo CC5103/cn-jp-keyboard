@@ -10,8 +10,8 @@
 </p>
 
 <p align="center">
-  <a href="../README.md"><img alt="English" src="https://img.shields.io/badge/English-333"></a>
-  <a href="README_zh.md"><img alt="中文" src="https://img.shields.io/badge/中文-333"></a>
+  <a href="README_en.md"><img alt="English" src="https://img.shields.io/badge/English-333"></a>
+  <a href="../README.md"><img alt="中文" src="https://img.shields.io/badge/中文-333"></a>
   <a href="README_jp.md"><img alt="日本語" src="https://img.shields.io/badge/日本語-333"></a>
 </p>
 

@@ -1,7 +1,7 @@
 <h1 align="center">CN-JP-KEYBOARD</h1>
 
-<p align="center"><b>This project remaps Chinese (Pinyin) input methods to the Japanese keyboard layout, ensuring correct and convenient punctuation behavior when typing Chinese on a JP keyboard.</b></p>
-<p align="center"><b>It also introduces a macOS-style Kana key that enables one-touch switching to Japanese input, greatly improving cross-language typing efficiency.</b></p>
+<p align="center"><b>本项目用于将中文（拼音）输入法映射到日文键盘布局，使在日文键盘上输入中文时，标点符号能够保持正确且方便的方式输出。</b></p>
+<p align="center"><b>同时提供类似于 macOS 的【かな】一键切换功能，可在日语输入与其他输入之间快速切换，大幅提升跨语言输入的效率与体验。</b></p>
 
 <p align="center">
     <img src="https://img.shields.io/badge/AutoHotkey-v2.0-green?logo=autohotkey&logoColor=white" alt="AutoHotkey v2.0">
@@ -10,55 +10,56 @@
 </p>
 
 <p align="center">
-  <a href="README.md"><img alt="English" src="https://img.shields.io/badge/English-333"></a>
-  <a href="docs/README_zh.md"><img alt="中文" src="https://img.shields.io/badge/中文-333"></a>
+  <a href="docs/README_en.md"><img alt="English" src="https://img.shields.io/badge/English-333"></a>
+  <a href="README.md"><img alt="中文" src="https://img.shields.io/badge/中文-333"></a>
   <a href="docs/README_jp.md"><img alt="日本語" src="https://img.shields.io/badge/日本語-333"></a>
 </p>
 
-<p align="center"><b>⭐ If you find this project useful, please consider giving it a star on GitHub! ⭐</b></p>
+<p align="center"><b>⭐ 如果您觉得本项目有用，欢迎在 GitHub 上为本项目点个⭐星支持一下！ ⭐</b></p>
 
 ---
 
-## 📢 Introduction
+## 📢 项目简介
 
-Typing Chinese (Pinyin) on a Japanese keyboard often leads to mismatched or inconvenient punctuation behavior.  
-This project solves the issue by remapping punctuation keys so they output proper Chinese punctuation when using a JP keyboard layout.
+在日文键盘上输入中文（拼音）时，经常会遇到标点符号与中文习惯不符的问题。  
+本项目通过重新映射键盘，使在使用日文键盘布局输入中文时能够输出正确的中文标点。
 
-In addition, a macOS-like **Kana key** is provided, allowing instant switching to Japanese input mode. This significantly improves the experience for users who frequently alternate between Chinese and Japanese.
+此外，本项目还提供类似 macOS 的【かな】键功能，可一键切换到日语输入模式，对经常中日文切换的用户非常友好。
 
-## 🚀 Features
+## 🚀 功能特点
 
-- **Punctuation Remapping**  
-  Ensures Chinese-style punctuation when typing Chinese on a Japanese keyboard layout.
+- **中文标点映射**  
+  在日文键盘布局下输入中文时，自动输出中文风格的标点符号。
 
-- **Kana Key Functionality**  
-  Provides a dedicated macOS-style Kana key to toggle Japanese input with a single keystroke.
+- **かな键切换功能**  
+  复刻 macOS 的日文 Kana 切换键，一键切换至日语输入法。
 
-## 🖥️ Supported Systems
+## 🖥️ 支持系统
 
-Tested on **Windows 11**.  
-Expected to work on other Windows versions that use the same IME system, registry paths, and keyboard layout infrastructure.
+已在 **Windows 11** 上验证。  
+理论上适用于其他使用相同 IME、注册表结构和键盘布局体系的 Windows 版本。
 
-## ⚙️ How to Use
+## ⚙️ 使用方法
 
-1. **Download or Clone the Repository**  
-   Get the script files from this repository.
+1. **下载或克隆仓库**  
+   获取本仓库中的脚本文件。
 
-   > **If you have not installed the Japanese IME**:  
-   > - Go to **Settings → Time & Language → Language & Region**  
-   > - Click **Add a language**  
-   > - Search for **Japanese**, then install
+   > **如果尚未安装日语输入法（Japanese IME）**：  
+   > - 打开 **设置 → 时间和语言 → 语言和区域**  
+   > - 点击 **添加语言**  
+   > - 搜索 **Japanese** 并安装
 
-2. **Use Only Punctuation Remapping**  
-   - Run **`Change_Keyboard_CN_to_JP.reg`**
+2. **仅使用中文标点映射功能**  
+   - 运行 **`Change_Keyboard_CN_to_JP.reg`**
 
-3. **Use Only the Kana Key Feature**  
-   - Run **`install_ahk_and_startup.bat`** to install AutoHotkey and register the Kana-key script for startup.
+3. **仅使用 かな 键功能**  
+   - 运行 **`install_ahk_and_startup.bat`**  
+     用于安装 AutoHotkey 并设置开机自动运行 Kana 脚本。
 
-4. **Apply Changes**  
-   - Restart your computer.
+4. **应用更改**  
+   - 重启电脑。
 
-## 📜 License
+## 📜 许可证
 
-This project is licensed under the **MIT License**.  
-See the [LICENSE](LICENSE) file for details.
+本项目使用 **MIT License** 开源许可。  
+详见 [LICENSE](LICENSE) 文件。
