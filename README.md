@@ -6,6 +6,7 @@
 <p align="center">
     <img src="https://img.shields.io/badge/AutoHotkey-v2.0-green?logo=autohotkey&logoColor=white" alt="AutoHotkey v2.0">
     <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT License">
+    <img src="https://img.shields.io/github/stars/YourName/CN-JP-KEYBOARD?style=social" alt="GitHub Stars">
 </p>
 
 <p align="center">
@@ -13,6 +14,8 @@
   <a href="docs/README_zh.md"><img alt="中文" src="https://img.shields.io/badge/中文-333"></a>
   <a href="docs/README_jp.md"><img alt="日本語" src="https://img.shields.io/badge/日本語-333"></a>
 </p>
+
+<p align="center"><b>⭐ If you find this project useful, please consider giving it a star on GitHub! ⭐</b></p>
 
 ---
 
