@@ -35,6 +35,8 @@ sc070::{
         ; Send the input language switching message
         try {
             PostMessage(0x50, 0, 0x04110411,, targetHwnd)
+            Sleep(1)
+            SendInput("{sc070}")
         }
     }
 }
