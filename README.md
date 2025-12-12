@@ -47,7 +47,7 @@ Expected to work on other Windows versions that use the same IME system, registr
    > - Search for **Japanese**, then install
 
 2. **Use Only Punctuation Remapping**  
-   - Run **`Change_Punctuation.ahk`**
+   - Run **`Change_Keyboard_CN_to_JP.reg`**
 
 3. **Use Only the Kana Key Feature**  
    - Run **`install_ahk_and_startup.bat`** to install AutoHotkey and register the Kana-key script for startup.

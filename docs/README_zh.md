@@ -47,7 +47,7 @@
    > - 搜索 **Japanese** 并安装
 
 2. **仅使用中文标点映射功能**  
-   - 运行 **`Change_Punctuation.ahk`**
+   - 运行 **`Change_Keyboard_CN_to_JP.reg`**
 
 3. **仅使用 かな 键功能**  
    - 运行 **`install_ahk_and_startup.bat`**  
