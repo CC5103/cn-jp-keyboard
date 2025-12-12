@@ -1,4 +1,4 @@
-<p align="center" style="font-size:40px;"><b>CN-JP-KEYBOARD</b></p>
+<h1 align="center">CN-JP-KEYBOARD</h1>
 
 <p align="center"><b>本プロジェクトは、中国語（ピンイン）入力を日本語キーボードで行う際に、句読点が正しく出力されるようキーマッピングを調整するものです。</b></p>
 <p align="center"><b>また、macOS の「かな」キーに近いワンタッチ切替機能を提供し、中国語と日本語の入力をシームレスに切り替えることができます。</b></p>
