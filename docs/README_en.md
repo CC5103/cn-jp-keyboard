@@ -50,12 +50,28 @@ Expected to work on other Windows versions that use the same IME system, registr
    > - Search for **Japanese**, then install
 
 2. **Use Only Punctuation Remapping**  
-   - Run **`Change_Keyboard_CN_to_JP.reg`**
+   - Run **`Keyboard_CN_to_JP\Change_Keyboard_CN_to_JP.reg`**  
+     to modify the registry and enable punctuation remapping.
 
 3. **Use Only the Kana Key Feature**  
-   - Run **`install_ahk_and_startup.bat`** to install AutoHotkey and register the Kana-key script for startup.
+   - Run **`Kana_to_jp\install_ahk_and_startup.bat`**  
+     to install AutoHotkey and set up the Kana script to run at startup.
 
-4. **Apply Changes**  
+4. <span style="color:red">**Apply Changes**</span>  
+   - Restart your computer.
+
+##　🛠️ How to Restore
+
+1. **Restore Punctuation Remapping**  
+   - Run **`Keyboard_CN_to_JP\Restore_Keyboard_CN.reg`**  
+     to revert the registry to its default state.
+
+2. **Remove the Kana Key Feature**
+    - Run **`Kana_to_jp\Restore_kana_to_jp.bat`  
+      to remove the Kana script from startup.
+    - Uninstall AutoHotkey if no longer needed.
+
+3. <span style="color:red">**Apply Changes**</span>
    - Restart your computer.
 
 ## 📜 License
