@@ -51,12 +51,28 @@
    > - **Japanese（日本語）** を検索してインストール
 
 2. **句読点マッピングのみ使用する場合**  
-   - **`Change_Keyboard_CN_to_JP.reg`** を実行
+   - **`Keyboard_CN_to_JP\Change_Keyboard_CN_to_JP.reg`** を実行して、  
+     レジストリを変更し、句読点マッピング機能を有効化
 
 3. **かなキー機能のみ使用する場合**  
-   - **`install_ahk_and_startup.bat`** を実行して AutoHotkey をインストールし、かなスクリプトをスタートアップへ登録
+   - **`Kana_to_jp\install_ahk_and_startup.bat`** を実行して、  
+     AutoHotkey をインストールし、かなスクリプトをスタートアップに登録
 
-4. **設定を反映させるために**  
+4. <span style="color:red;">**設定を反映させるために**</span>
+   - PC を再起動してください。
+
+## 🛠️ 復元方法
+
+1. **句読点マッピングを復元する場合**  
+   - **`Keyboard_CN_to_JP\Restore_Keyboard_CN.reg`** を実行して、  
+     レジストリをデフォルト状態に戻す。
+
+2. **かなキー機能を削除する場合**  
+    - **`Kana_to_jp\Restore_kana_to_jp.bat`** を実行して、  
+      スタートアップからかなスクリプトを削除。
+    - AutoHotkey をアンインストール（不要な場合）。
+
+3. <span style="color:red;">**設定を反映させるために**</span>
    - PC を再起動してください。
 
 ## 📜 ライセンス
