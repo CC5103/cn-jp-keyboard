@@ -48,7 +48,7 @@
    > - **Japanese（日本語）** を検索してインストール
 
 2. **句読点マッピングのみ使用する場合**  
-   - **`Change_Punctuation.ahk`** を実行
+   - **`Change_Keyboard_CN_to_JP.reg`** を実行
 
 3. **かなキー機能のみ使用する場合**  
    - **`install_ahk_and_startup.bat`** を実行して AutoHotkey をインストールし、かなスクリプトをスタートアップへ登録
