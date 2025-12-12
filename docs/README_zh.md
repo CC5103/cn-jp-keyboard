@@ -1,4 +1,4 @@
-<p align="center" style="font-size:40px;"><b>CN-JP-KEYBOARD</b></p>
+<h1 align="center">CN-JP-KEYBOARD</h1>
 
 <p align="center"><b>本项目用于将中文（拼音）输入法映射到日文键盘布局，使在日文键盘上输入中文时，标点符号能够保持正确且方便的方式输出。</b></p>
 <p align="center"><b>同时提供类似于 macOS 的【かな】一键切换功能，可在日语输入与其他输入之间快速切换，大幅提升跨语言输入的效率与体验。</b></p>

@@ -1,4 +1,4 @@
-<p align="center" style="font-size:40px;"><b>CN-JP-KEYBOARD</b></p>
+<h1 align="center">CN-JP-KEYBOARD</h1>
 
 <p align="center"><b>This project remaps Chinese (Pinyin) input methods to the Japanese keyboard layout, ensuring correct and convenient punctuation behavior when typing Chinese on a JP keyboard.</b></p>
 <p align="center"><b>It also introduces a macOS-style Kana key that enables one-touch switching to Japanese input, greatly improving cross-language typing efficiency.</b></p>
