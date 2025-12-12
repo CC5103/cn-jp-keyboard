@@ -6,7 +6,7 @@
 <p align="center">
     <img src="https://img.shields.io/badge/AutoHotkey-v2.0-green?logo=autohotkey&logoColor=white" alt="AutoHotkey v2.0">
     <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT License">
-    <img src="https://img.shields.io/github/stars/YourName/CN-JP-KEYBOARD?style=social" alt="GitHub Stars">
+    <img src="https://img.shields.io/github/stars/CC5103/CN-JP-KEYBOARD?style=social" alt="GitHub Stars">
 </p>
 
 <p align="center">
