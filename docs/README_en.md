@@ -56,6 +56,10 @@ Expected to work on other Windows versions that use the same IME system, registr
 3. **Use Only the Kana Key Feature**  
    - Run **`Kana_to_jp\install_ahk_and_startup.bat`**  
      to install AutoHotkey and set up the Kana script to run at startup.
+   > - Recommended Setting (Optional):  
+   >   Set the **無変換** key as a one-touch English toggle:
+   >   - Open **Settings → Time & Language → Language & Region → Japanese → Options → Microsoft IME → Keyboard and Touch Customization** → Key Assignment  
+   >   - Set **無変換** to **IME off**
 
 4. <span style="color:red">**Apply Changes**</span>  
    - Restart your computer.

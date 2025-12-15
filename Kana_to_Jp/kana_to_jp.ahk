@@ -35,10 +35,36 @@ sc070::{
         ; Send the input language switching message
         try {
             PostMessage(0x50, 0, 0x04110411,, targetHwnd)
-            Sleep(1)
+            Sleep(50)
             SendInput("{sc070}")
         }
     }
+}
+
+sc07B::{
+    hWnd := WinExist("A")
+    ThreadID := DllCall("GetWindowThreadProcessId", "Ptr", hWnd, "Ptr", 0)
+    KeyboardLayout := DllCall("GetKeyboardLayout", "UInt", ThreadID, "Ptr")
+    LangID := KeyboardLayout & 0xFFFF
+     if (LangID == 0x0411) {
+        SendInput("{sc07B}")
+     }
+     else{
+        targetHwnd := hWnd ; default target = main window
+        try {
+            ctl := ControlGetFocus("A")
+            if (ctl) {
+                targetHwnd := ControlGetCtlWnd(ctl)
+            }
+        }
+
+        ; Send the input language switching message
+        try {
+            PostMessage(0x50, 0, 0x04110411,, targetHwnd)
+            Sleep(50)
+            SendInput("{sc07B}")
+        }
+     }
 }
 
 ; Helper function: Get window handle of a control

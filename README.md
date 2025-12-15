@@ -56,6 +56,10 @@
 3. **仅使用 かな 键功能**  
    - 运行 **`Kana_to_jp\install_ahk_and_startup.bat`**
      用于安装 AutoHotkey 并设置开机自动运行 Kana 脚本。
+   > - 推荐设置（可选）:  
+   >   **無変換** 键作为一键英文切换键：
+   >   - 打开 **设置 → 时间和语言 → 语言和区域 → Japanese → 选项 → Microsoft IME → 键盘和触摸自定义** → 键分配  
+   >   - 将 **無変換** 设置为 **IME off**
 
 4. <span style="color:red;">**应用更改**</span>
    - 重启电脑。
