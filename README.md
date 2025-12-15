@@ -1,18 +1,33 @@
 <h1 align="center">CN-JP-KEYBOARD</h1>
 
-<p align="center"><b>本项目用于将中文（拼音）输入法映射到日文键盘布局，使在日文键盘上输入中文时，标点符号能够保持正确且方便的方式输出。</b></p>
-<p align="center"><b>同时提供类似于 macOS 的【かな】一键切换功能，可在日语输入与其他输入之间快速切换，大幅提升跨语言输入的效率与体验。</b></p>
+<p align="center">
+  <a href="docs/README_en.md"><img alt="English" src="https://img.shields.io/badge/English-333"></a>
+  <a href="README.md"><img alt="中文" src="https://img.shields.io/badge/中文-333"></a>
+  <a href="docs/README_jp.md"><img alt="日本語" src="https://img.shields.io/badge/日本語-333"></a>
+</p>
+
+<p align="center">
+  <em>
+    Remap Chinese (Pinyin) input to a Japanese keyboard layout with correct punctuation behavior — and add a macOS-style Kana key for one-touch switching between Japanese and other inputs.
+  </em>
+</p>
+
+<p align="center">
+  <em>
+    在日文键盘上输入中文（拼音）时保持标点正确输出，并提供类似 macOS 的【かな】一键切换功能，提升跨语言输入体验。
+  </em>
+</p>
+
+<p align="center">
+  <em>
+    日本語キーボードで中国語（ピンイン）を正しく入力できるようにし、macOS風の「かな」キーでワンタッチ切替を提供します。
+  </em>
+</p>
 
 <p align="center">
     <img src="https://img.shields.io/badge/AutoHotkey-v2.0-green?logo=autohotkey&logoColor=white" alt="AutoHotkey v2.0">
     <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT License">
     <img src="https://img.shields.io/github/stars/CC5103/CN-JP-KEYBOARD?style=social" alt="GitHub Stars">
-</p>
-
-<p align="center">
-  <a href="docs/README_en.md"><img alt="English" src="https://img.shields.io/badge/English-333"></a>
-  <a href="README.md"><img alt="中文" src="https://img.shields.io/badge/中文-333"></a>
-  <a href="docs/README_jp.md"><img alt="日本語" src="https://img.shields.io/badge/日本語-333"></a>
 </p>
 
 <p align="center"><b>⭐ 如果您觉得本项目有用，欢迎在 GitHub 上为本项目点个⭐星支持一下！ ⭐</b></p>

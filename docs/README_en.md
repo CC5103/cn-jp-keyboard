@@ -1,5 +1,11 @@
 <h1 align="center">CN-JP-KEYBOARD</h1>
 
+<p align="center">
+  <a href="README_en.md"><img alt="English" src="https://img.shields.io/badge/English-333"></a>
+  <a href="../README.md"><img alt="中文" src="https://img.shields.io/badge/中文-333"></a>
+  <a href="README_jp.md"><img alt="日本語" src="https://img.shields.io/badge/日本語-333"></a>
+</p>
+
 <p align="center"><b>This project remaps Chinese (Pinyin) input methods to the Japanese keyboard layout, ensuring correct and convenient punctuation behavior when typing Chinese on a JP keyboard.</b></p>
 <p align="center"><b>It also introduces a macOS-style Kana key that enables one-touch switching to Japanese input, greatly improving cross-language typing efficiency.</b></p>
 
@@ -7,12 +13,6 @@
     <img src="https://img.shields.io/badge/AutoHotkey-v2.0-green?logo=autohotkey&logoColor=white" alt="AutoHotkey v2.0">
     <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT License">
     <img src="https://img.shields.io/github/stars/CC5103/CN-JP-KEYBOARD?style=social" alt="GitHub Stars">
-</p>
-
-<p align="center">
-  <a href="README_en.md"><img alt="English" src="https://img.shields.io/badge/English-333"></a>
-  <a href="../README.md"><img alt="中文" src="https://img.shields.io/badge/中文-333"></a>
-  <a href="README_jp.md"><img alt="日本語" src="https://img.shields.io/badge/日本語-333"></a>
 </p>
 
 <p align="center"><b>⭐ If you find this project useful, please consider giving it a star on GitHub! ⭐</b></p>
