@@ -18,6 +18,14 @@
 <p align="center"><b>⭐ If you find this project useful, please consider giving it a star on GitHub! ⭐</b></p>
 
 ---
+## 📌 Table of Contents
+- [📌 Table of Contents](#-table-of-contents)
+- [📢 Introduction](#-introduction)
+- [🚀 Features](#-features)
+- [🖥️ Supported Systems](#️-supported-systems)
+- [⚙️ How to Use](#️-how-to-use)
+- [� Troubleshooting](#-troubleshooting)
+- [📜 License](#-license)
 
 ## 📢 Introduction
 
