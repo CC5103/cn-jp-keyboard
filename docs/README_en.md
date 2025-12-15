@@ -1,4 +1,10 @@
-<h1 align="center">CN-JP-KEYBOARD</h1>
+<p align="center">
+  <a href=https://github.com/CC5103/cn-jp-keyboard>
+  <img src="..\figs\icon.png" alt="CN-JP-KEYBOARD" width="260" />
+  </a>
+</p>
+
+---
 
 <p align="center">
   <a href="README_en.md"><img alt="English" src="https://img.shields.io/badge/English-333"></a>
@@ -24,7 +30,7 @@
 - [🚀 Features](#-features)
 - [🖥️ Supported Systems](#️-supported-systems)
 - [⚙️ How to Use](#️-how-to-use)
-- [� Troubleshooting](#-troubleshooting)
+- [🔧 Troubleshooting](#-troubleshooting)
 - [📜 License](#-license)
 
 ## 📢 Introduction
