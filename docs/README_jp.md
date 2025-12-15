@@ -79,6 +79,37 @@
 3. <span style="color:red;">**設定を反映させるために**</span>
    - PC を再起動してください。
 
+## 🔧 トラブルシューティング
+
+もし **`Keyboard_CN_to_JP\Change_Keyboard_CN_to_JP.reg`** を実行した後に、入力方式リストに**余分な入力方式オプション**が表示された場合、以下の手順で対処してください：
+
+1. **Win + R** を押して「ファイル名を指定して実行」ウィンドウを開き、`regedit` と入力して Enter キーを押し、レジストリエディタを開きます。
+   
+2. 以下のパスに移動します：
+
+   ```plaintext
+   HKEY_CURRENT_USER\Keyboard Layout\Preload
+   ```
+
+   余分な入力方式のエントリを削除します（通常は `"1"` と `"2"` のみを残し、その他は削除してください）。
+  
+3. 次に、以下のパスを確認します：
+
+   ```plaintext
+    HKEY_CURRENT_USER\Keyboard Layout\Substitutes
+    ```
+    以下のエントリ**のみが存在することを確認してください**
+    ```plaintext
+    "00000804"="00000411"
+    ```
+    他のエントリが存在する場合は、それらを削除してください。
+
+4. 最後に、以下のパスにある設定キャッシュを削除します：
+  ```plaintext
+   HKEY_CURRENT_USER\Control Panel\International\User Profile\zh-Hans-CH
+   ```
+完成したら、**PC を再起動**してください。通常、問題は解決されます。
+
 ## 📜 ライセンス
 
 本プロジェクトは **MIT ライセンス** のもとで公開されています。  

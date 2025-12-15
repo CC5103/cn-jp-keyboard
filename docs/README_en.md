@@ -78,6 +78,39 @@ Expected to work on other Windows versions that use the same IME system, registr
 3. <span style="color:red">**Apply Changes**</span>
    - Restart your computer.
 
+## 🔧 Troubleshooting
+
+If, after running **`Keyboard_CN_to_JP\Change_Keyboard_CN_to_JP.reg`**, you notice **extra input method options** in your input method list, please follow these steps:
+
+1. Press **Win + R** to open the "Run" dialog, type `regedit`, and press Enter to open the Registry Editor.
+
+2. Navigate to the following path:
+
+   ```plaintext
+   HKEY_CURRENT_USER\Keyboard Layout\Preload
+   ```
+
+   Delete any extra input method entries (usually only keep `"1"` and `"2"`, delete the rest).
+  
+3. Next, check the following path:
+
+   ```plaintext
+    HKEY_CURRENT_USER\Keyboard Layout\Substitutes
+    ```
+  
+    Ensure that **only**
+  
+    ```plaintext
+    "00000804"="00000411"
+    ```
+    exists. If there are other entries, please delete them.
+
+4. Finally, delete the settings cache at the following path:
+    ```plaintext
+    HKEY_CURRENT_USER\Control Panel\International\User Profile\zh-Hans-CH
+    ```
+After completing the above steps, **restart your computer**, and the issue should be resolved.
+
 ## 📜 License
 
 This project is licensed under the **MIT License**.  

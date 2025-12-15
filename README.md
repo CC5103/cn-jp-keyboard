@@ -77,6 +77,42 @@
 
 3. <span style="color:red;">**应用更改**</span>  
    - 重启电脑。
+  
+## 🔧 故障排除
+
+如果运行 **`Keyboard_CN_to_JP\Change_Keyboard_CN_to_JP.reg`** 后，发现输入法列表中出现了**多余的输入法选项**，请按以下步骤操作：
+
+1. 按下 **Win + R** 打开「运行」窗口，输入 `regedit` 并回车，打开注册表编辑器。
+
+2. 导航至以下路径：
+
+   ```plaintext
+   HKEY_CURRENT_USER\Keyboard Layout\Preload
+   ```
+
+   删除多余的输入法项（通常只保留 `"1"` 和 `"2"`，其余项可删除）。
+
+3. 接着检查以下路径：
+
+   ```plaintext
+   HKEY_CURRENT_USER\Keyboard Layout\Substitutes
+   ```
+
+   确认是否**只存在**
+
+   ```plaintext
+   "00000804"="00000411"
+   ```
+
+   若存在其他项，请将其删除。
+
+4. 最后，删除以下路径下的设置缓存：
+
+   ```plaintext
+   HKEY_CURRENT_USER\Control Panel\International\User Profile\zh-Hans-CH
+   ```
+
+完成上述操作后，**重启电脑**，问题通常即可解决。
 
 ## 📜 许可证
 
