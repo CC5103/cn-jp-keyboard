@@ -1,18 +1,33 @@
 <h1 align="center">CN-JP-KEYBOARD</h1>
 
-<p align="center"><b>本项目用于将中文（拼音）输入法映射到日文键盘布局，使在日文键盘上输入中文时，标点符号能够保持正确且方便的方式输出。</b></p>
-<p align="center"><b>同时提供类似于 macOS 的【かな】一键切换功能，可在日语输入与其他输入之间快速切换，大幅提升跨语言输入的效率与体验。</b></p>
+<p align="center">
+  <a href="docs/README_en.md"><img alt="English" src="https://img.shields.io/badge/English-333"></a>
+  <a href="README.md"><img alt="中文" src="https://img.shields.io/badge/中文-333"></a>
+  <a href="docs/README_jp.md"><img alt="日本語" src="https://img.shields.io/badge/日本語-333"></a>
+</p>
+
+<p align="center">
+  <em>
+    Remap Chinese (Pinyin) input to a Japanese keyboard layout with correct punctuation behavior — and add a macOS-style Kana key for one-touch switching between Japanese and other inputs.
+  </em>
+</p>
+
+<p align="center">
+  <em>
+    在日文键盘上输入中文（拼音）时保持标点正确输出，并提供类似 macOS 的【かな】一键切换功能，提升跨语言输入体验。
+  </em>
+</p>
+
+<p align="center">
+  <em>
+    日本語キーボードで中国語（ピンイン）を正しく入力できるようにし、macOS風の「かな」キーでワンタッチ切替を提供します。
+  </em>
+</p>
 
 <p align="center">
     <img src="https://img.shields.io/badge/AutoHotkey-v2.0-green?logo=autohotkey&logoColor=white" alt="AutoHotkey v2.0">
     <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT License">
     <img src="https://img.shields.io/github/stars/CC5103/CN-JP-KEYBOARD?style=social" alt="GitHub Stars">
-</p>
-
-<p align="center">
-  <a href="docs/README_en.md"><img alt="English" src="https://img.shields.io/badge/English-333"></a>
-  <a href="README.md"><img alt="中文" src="https://img.shields.io/badge/中文-333"></a>
-  <a href="docs/README_jp.md"><img alt="日本語" src="https://img.shields.io/badge/日本語-333"></a>
 </p>
 
 <p align="center"><b>⭐ 如果您觉得本项目有用，欢迎在 GitHub 上为本项目点个⭐星支持一下！ ⭐</b></p>
@@ -56,6 +71,10 @@
 3. **仅使用 かな 键功能**  
    - 运行 **`Kana_to_jp\install_ahk_and_startup.bat`**
      用于安装 AutoHotkey 并设置开机自动运行 Kana 脚本。
+   > - 推荐设置（可选）:  
+   >   **無変換** 键作为一键英文切换键：
+   >   - 打开 **设置 → 时间和语言 → 语言和区域 → Japanese → 选项 → Microsoft IME → 键盘和触摸自定义** → 键分配  
+   >   - 将 **無変換** 设置为 **IME off**
 
 4. <span style="color:red;">**应用更改**</span>
    - 重启电脑。
@@ -73,6 +92,42 @@
 
 3. <span style="color:red;">**应用更改**</span>  
    - 重启电脑。
+  
+## 🔧 故障排除
+
+如果运行 **`Keyboard_CN_to_JP\Change_Keyboard_CN_to_JP.reg`** 后，发现输入法列表中出现了**多余的输入法选项**，请按以下步骤操作：
+
+1. 按下 **Win + R** 打开「运行」窗口，输入 `regedit` 并回车，打开注册表编辑器。
+
+2. 导航至以下路径：
+
+   ```plaintext
+   HKEY_CURRENT_USER\Keyboard Layout\Preload
+   ```
+
+   删除多余的输入法项（通常只保留 `"1"` 和 `"2"`，其余项可删除）。
+
+3. 接着检查以下路径：
+
+   ```plaintext
+   HKEY_CURRENT_USER\Keyboard Layout\Substitutes
+   ```
+
+   确认是否**只存在**
+
+   ```plaintext
+   "00000804"="00000411"
+   ```
+
+   若存在其他项，请将其删除。
+
+4. 最后，删除以下路径下的设置缓存：
+
+   ```plaintext
+   HKEY_CURRENT_USER\Control Panel\International\User Profile\zh-Hans-CH
+   ```
+
+完成上述操作后，**重启电脑**，问题通常即可解决。
 
 ## 📜 许可证
 
